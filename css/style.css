@@ -1,0 +1,125 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    padding: 16px 10px;
+}
+
+.logo{
+    font-size: 10px;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    column-gap: 35px;
+    border-right: 1px solid grey;
+    padding: 5px 20px 5px 0;
+}
+
+nav ul li{
+    list-style: none;
+}
+
+nav .right-contact{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+nav .right-contact-text p{
+    font-size: 18px;
+    line-height: 20px;
+}
+
+main{
+    width: 80%;
+    height: 90vh;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+main .container{
+    height: 80%;
+    width: 100%;
+    display: flex;
+}
+
+main .container .main-left{
+    width: 50%;
+    height: 100%;
+}
+
+main .container .main-left h1{
+    width: 80%;
+    padding: 90px 0;
+    font-size: 45px;
+}
+
+.button{
+    margin-top: -80px;
+}
+
+.button .btn{
+    background-color: orangered;
+    color: white;
+    padding: 10px;
+    border-color: orangered;
+    border-radius: 10px;
+}
+
+.open{
+    margin-top: 28px;
+}
+
+.open h4 {
+    font-size: 18px;
+    line-height: 5px;
+    color: #E1E1E1;
+}
+
+.open p{
+    color: black;
+    font-family: Manrope;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 31.5px;
+}
+
+main .container .main-right-image{
+    width: 50%;
+    height: 100%;
+    background-image: url(/images/Image.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+main .container .main-right-image .service{
+    position: absolute;
+    left: -15%;
+    top: 0;
+}
+
+main .container .main-right-image .rating{
+    position: absolute;
+    right: -13%;
+    bottom: 0;
+}
